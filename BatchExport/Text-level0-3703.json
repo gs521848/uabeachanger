@@ -1,0 +1,53 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 523
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 1206
+  },
+  "m_Name": "",
+  "m_Material": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Color": {
+    "r": 0.09019608,
+    "g": 0.09019608,
+    "b": 0.15294118,
+    "a": 1.0
+  },
+  "m_RaycastTarget": false,
+  "m_RaycastPadding": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Maskable": true,
+  "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "m_FontData": {
+    "m_Font": {
+      "m_FileID": 3,
+      "m_PathID": 10102
+    },
+    "m_FontSize": 16,
+    "m_FontStyle": 0,
+    "m_BestFit": false,
+    "m_MinSize": 1,
+    "m_MaxSize": 40,
+    "m_Alignment": 0,
+    "m_AlignByGeometry": false,
+    "m_RichText": false,
+    "m_HorizontalOverflow": 0,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+  },
+  "m_Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate odio porta dictum mollis. Donec faucibus ac nunc sit amet molestie. Pellentesque nec imperdiet urna. Nulla maximus tortor eget lorem faucibus egestas. In volutpat ante sit amet nibh accumsan, et ultricies mi mollis. Nam sed erat sit amet eros malesuada fringilla id vitae nunc. Nulla tristique nulla tristique auctor elementum. Integer tincidunt nunc eget eleifend accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis tincidunt tortor, sit amet lacinia magna. Duis lacinia auctor ullamcorper. Duis consequat purus tincidunt dolor pellentesque, at luctus ante scelerisque. Maecenas ac risus placerat, pellentesque lectus in, facilisis ligula. Vivamus tempus ornare imperdiet.  Quisque a sem malesuada, suscipit risus ut, egestas lectus. Ut rhoncus nulla sed efficitur pharetra. Quisque odio massa, facilisis non elit sed, vehicula euismod turpis. Vivamus pellentesque sit amet arcu nec egestas. Aliquam in vestibulum orci. Donec a tristique quam, ac condimentum erat. Fusce non ante quam. Curabitur ante ligula, dictum id dignissim non, mattis in libero.  Donec purus risus, posuere in elementum sed, vestibulum quis diam. Curabitur fermentum elementum ligula. Nam vitae ultrices metus, laoreet tempus sem. Nam tempus elementum eros, eu ornare diam. Sed in dui rhoncus, rutrum neque ut, rutrum lectus. Curabitur ultrices sagittis leo a iaculis. Nam rutrum risus ut ipsum bibendum, ac rutrum tortor imperdiet. Curabitur tempus, neque nec aliquet elementum, ipsum nunc lobortis turpis, et pulvinar lectus arcu nec eros. Nunc consequat urna interdum, volutpat ante fermentum, placerat nisi. Vivamus lacus libero, feugiat sit amet suscipit eu, faucibus vitae velit. Duis congue lectus libero. Cras lobortis vestibulum dui, at varius nisl volutpat ac. Aenean vestibulum arcu in urna viverra ultrices. Duis euismod maximus quam, ac laoreet magna viverra eu. Curabitur luctus justo finibus dui viverra ultricies."
+}

@@ -1,0 +1,26 @@
+System.ArgumentNullException: Value cannot be null. (Parameter 'sourceArray')
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   at LibCpp2IL.Metadata.Il2CppMetadata.GetCustomAttributeData(Il2CppImageDefinition imageDef, Int32 customAttributeIndex, UInt32 token)
+   at AssetsTools.NET.Cpp2IL.Cpp2IlTempGenerator.GetAttributeNamesOnField(Il2CppImageDefinition image, Il2CppFieldDefinition field)
+   at AssetsTools.NET.Cpp2IL.Cpp2IlTempGenerator.GetAcceptableFields(Il2CppTypeDefinition typeDef)
+   at AssetsTools.NET.Cpp2IL.Cpp2IlTempGenerator.ReadTypes(Il2CppTypeDefinition type)
+   at AssetsTools.NET.Cpp2IL.Cpp2IlTempGenerator.RecursiveTypeLoad(Il2CppTypeDefinition type, List`1 templateFields)
+   at AssetsTools.NET.Cpp2IL.Cpp2IlTempGenerator.RecursiveTypeLoad(Il2CppTypeDefinition type, List`1 templateFields)
+   at AssetsTools.NET.Cpp2IL.Cpp2IlTempGenerator.GetTemplateField(AssetTypeTemplateField baseField, String assemblyName, String nameSpace, String className, UnityVersion unityVersion)
+   at AssetsTools.NET.Extra.AssetsManager.GetTemplateBaseField(AssetsFileInstance inst, AssetsFileReader reader, Int64 absByteStart, Int32 typeId, UInt16 scriptIndex, Boolean preferEditor)
+   at UABEAvalonia.AssetWorkspace.GetTemplateField(AssetContainer cont) in E:\softs\DPApkTools\UABEA\UABEAvalonia\AssetWorkspace.cs:line 233
+   at UABEAvalonia.AssetWorkspace.GetAssetContainer(AssetsFileInstance fileInst, Int32 fileId, Int64 pathId, Boolean onlyInfo) in E:\softs\DPApkTools\UABEA\UABEAvalonia\AssetWorkspace.cs:line 261
+   at UABEAvalonia.AssetWorkspace.GetBaseField(AssetContainer cont) in E:\softs\DPApkTools\UABEA\UABEAvalonia\AssetWorkspace.cs:line 290
+   at UABEAvalonia.InfoWindow.SingleExportDump(List`1 selection) in E:\softs\DPApkTools\UABEA\UABEAvalonia\InfoWindow.axaml.cs:line 689
+   at UABEAvalonia.InfoWindow.BtnExportDump_Click(Object sender, RoutedEventArgs e) in E:\softs\DPApkTools\UABEA\UABEAvalonia\InfoWindow.axaml.cs:line 345
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+   at Avalonia.Threading.JobRunner.JobWithArg.Avalonia.Threading.JobRunner.IJob.Run() in /_/src/Avalonia.Base/Threading/JobRunner.cs:line 241
+   at Avalonia.Threading.JobRunner.RunJobs(Nullable`1 priority) in /_/src/Avalonia.Base/Threading/JobRunner.cs:line 38
+   at Avalonia.Win32.Win32Platform.WndProc(IntPtr hWnd, UInt32 msg, IntPtr wParam, IntPtr lParam) in /_/src/Windows/Avalonia.Win32/Win32Platform.cs:line 287
+   at Avalonia.Win32.Interop.UnmanagedMethods.DispatchMessage(MSG& lpmsg)
+   at Avalonia.Win32.Win32Platform.RunLoop(CancellationToken cancellationToken) in /_/src/Windows/Avalonia.Win32/Win32Platform.cs:line 214
+   at Avalonia.Threading.Dispatcher.MainLoop(CancellationToken cancellationToken) in /_/src/Avalonia.Base/Threading/Dispatcher.cs:line 61
+   at Avalonia.Controls.ApplicationLifetimes.ClassicDesktopStyleApplicationLifetime.Start(String[] args) in /_/src/Avalonia.Controls/ApplicationLifetimes/ClassicDesktopStyleApplicationLifetime.cs:line 120
+   at Avalonia.ClassicDesktopStyleApplicationLifetimeExtensions.StartWithClassicDesktopLifetime[T](T builder, String[] args, ShutdownMode shutdownMode) in /_/src/Avalonia.Controls/ApplicationLifetimes/ClassicDesktopStyleApplicationLifetime.cs:line 209
+   at UABEAvalonia.Program.Main(String[] args) in E:\softs\DPApkTools\UABEA\UABEAvalonia\Program.cs:line 52
